@@ -7,6 +7,7 @@ from config import OWID_FILE_NAME
 from config import KORONAVIRUS_FILE_NAME
 
 owid_data_url = 'https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv'
+tracking_data_url = 'https://raw.githubusercontent.com/crondonm/TrackingR/main/Estimates-Database/database.csv'
 koronavirus_data_url = 'https://www.koronavirus.hr/json/?action=podaci'
 
 def download_owid_csv(file_name):
@@ -34,7 +35,7 @@ def validate_file_path(path, folder_name):
 def extract():
     validate_file_path(INBOUND_PATH, FOLDER_NAME)
     download_owid_csv(file_name=OWID_FILE_NAME)
-    download_koronavirus_json(file_name=KORONAVIRUS_FILE_NAME)
+    # download_koronavirus_json(file_name=KORONAVIRUS_FILE_NAME)
 
 if __name__ == '__main__':
     extract()

@@ -1,7 +1,7 @@
 import datetime as dt
 import os
 
-BASE_DIR = 'C:\\Users\\AndreaHrelja\\Documents\\Faks\\5. godina\\3. semestar\\UPZ\\Seminar'
+BASE_DIR = os.path.dirname(__file__)
 
 INBOUND_PATH = os.path.join(BASE_DIR, 'data\\inbound')
 STAGE_PATH = os.path.join(BASE_DIR, 'data\\stage')
@@ -11,3 +11,6 @@ FOLDER_NAME = str(dt.date.today())
 
 OWID_FILE_NAME = 'owid-covid-data.csv'
 KORONAVIRUS_FILE_NAME = 'koronavirus-covid-data.json'
+
+if __name__ == '__main__':
+    print(__file__)

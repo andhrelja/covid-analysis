@@ -55,7 +55,7 @@ def plot_differences():
 
 def transform():
     transform_owid(STAGE_PATH)
-    transform_koronavirus(STAGE_PATH)
+    # transform_koronavirus(STAGE_PATH)
     # combine_owid_koronavirus()
 
 if __name__ == '__main__':

@@ -1,0 +1,2 @@
+location,gdp_per_capita,extreme_poverty,life_expectancy,human_development_index,population,population_density,new_cases_smoothed_per_million,new_deaths_smoothed_per_million,icu_patients_per_million,hosp_patients_per_million,hosp_patients_per_million,people_fully_vaccinated_per_hundred,new_vaccinations_smoothed_per_million,stringency_index,median_age,excess_mortality
+Croatia,22669.797,0.7,78.49,0.851,4081657.0,73.726,1228.8926428571428,11.89,,436.587,436.587,45.266666666666666,4377.0,36.575,44.0,
